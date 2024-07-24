@@ -60,7 +60,7 @@
 .colorMode {
     position: absolute;
     width: 25px;
-    right: 0;
+    right: 15px;
 }
 
 .colorMode:hover{
@@ -68,7 +68,7 @@
 }
 
 .description{
-    max-width: 44ch;
+    max-width: 36ch;
 }
 
 .info{
@@ -76,4 +76,26 @@
     flex-direction: column;
     justify-content: center;
     gap:20px ;
+}
+
+@media(width>= 800px){
+    .container{
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .hero{
+            max-width: 350px;
+            width: 350px;
+        }
+    }
+}
+
+@media(width>= 1400px){
+    .container{
+        .hero{
+            max-width: 400px;
+            width: 400px;
+        }
+    }
 }
