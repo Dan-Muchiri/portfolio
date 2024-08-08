@@ -6,7 +6,7 @@ import linkedinLight from "../../assets/linkedin-light.svg"
 import linkedinDark from "../../assets/linkedin-dark.svg"
 import githubLight from "../../assets/github-light.svg"
 import githubDark from "../../assets/github-dark.svg"
-import CV from "../../assets/Dan-Muchiri-Resume.pdf"
+import CV from "../../assets/Full-stack-resume.pdf"
 import { useTheme } from "../../common/ThemeContext"
 
 function Hero() {
@@ -38,7 +38,7 @@ function Hero() {
                     <img src={githubIcon} alt="Github icon"/>
                 </a>
             </span>
-            <p className={styles.description}>Hi there! 👋 I'm Dan Muchiri, a Full-stack Software Engineer with a background in Mechatronic Engineering. Whether it's optimizing backend processes for efficiency or creating intuitive user interfaces, I'm dedicated to leveraging my skills to drive positive change and make a meaningful impact.</p>
+            <p className={styles.description}>Hi there! 👋 I'm Dan Muchiri, a Full-Stack Software Engineer proficient in Python with Flask, React, and JavaScript-based programming, and also skilled in developing decentralized applications (dApps) using Solidity and Ethers.js. I'm dedicated to leveraging my skills to drive positive change and make a meaningful impact.</p>
             <a href={CV} download>
                 <button className="hover">
                     Resume
