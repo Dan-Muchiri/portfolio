@@ -34,10 +34,6 @@ function Skills() {
             <SkillList src={checkMarkIcon} skill="SQL"/>
         </div>
         <hr/>
-        <div className={styles.skillList}>
-            <SkillList src={checkMarkIcon} skill="Solidity"/>
-            <SkillList src={checkMarkIcon} skill="Ethers.js"/>
-        </div>
     </section>
   )
 }
