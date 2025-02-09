@@ -29,7 +29,7 @@ function Hero() {
                 <br/> 
                 Muchiri
             </h1>
-            <h2> Full Stack Developer</h2>
+            <h2> Web Developer</h2>
             <span>
                 <a href="https://www.linkedin.com/in/dan-muchiri/" target="_blank">
                     <img src={linkedinIcon} alt="Linkedin icon"/>
@@ -38,7 +38,10 @@ function Hero() {
                     <img src={githubIcon} alt="Github icon"/>
                 </a>
             </span>
-            <p className={styles.description}>Hi there! 👋 I'm Dan Muchiri, a Full-Stack Software Engineer proficient in Python with Flask, React, and JavaScript-based programming. Whether it's optimizing backend processes for efficiency or creating intuitive user interfaces, I'm dedicated to leveraging my skills to drive positive change and make a meaningful impact.</p>
+            <p className={styles.description}>
+                Hi there! 👋 Need a modern, responsive website or a scalable web application? I'm Dan Muchiri, a Web Developer skilled in React and JavaScript, with expertise in Flask and Python.  
+                Let’s bring your ideas to life—get in touch for your next web development project!
+            </p>
             <a href={CV} download>
                 <button className="hover">
                     Resume
