@@ -6,6 +6,7 @@
     text-align: center;
     height: 100vh;
     min-height: 500px;
+    align-items: center;
 
     .hero{
         max-width: 200px;
@@ -89,6 +90,7 @@
             width: 350px;
         }
     }
+
 }
 
 @media(width>= 1400px){
